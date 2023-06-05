@@ -23,6 +23,7 @@ player3_answers = [
 ]
  
  
- player4_questions = ["Name a part of the face", ]
+player4_questions = ["Name a part of the face", ]
 player4_answers = [
     ['face', 'nose', 'mouth']
+]
