@@ -23,7 +23,10 @@ player3_answers = [
 ]
  
  
-player4_questions = ["Name a part of the face", ]
+player4_questions = ["Name a part of the face ", 'Name a food with a bitter taste ','Name something with a buckle ', 'Name a domestic pet ']
 player4_answers = [
     ['face', 'nose', 'mouth']
-]
+    ['lemon', 'orange', 'lime']
+    ['seatbelt', 'handbag', 'shoe']
+    ['dog', 'cat', 'hamster']
+[
