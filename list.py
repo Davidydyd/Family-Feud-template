@@ -5,7 +5,7 @@ player1_answers = [
     ["Superman", "Spiderman", "Batman", "Wonder Woman"],
     ["Titanic", "Star Wars", "The Avengers", "Jurassic Park"]
 ]    
-
+okk
 player2_questions = [""] 
 player2_answers = 
 
