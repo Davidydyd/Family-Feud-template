@@ -10,7 +10,7 @@ player2_questions = ["Which Color Would You Be Surprised To See A Bride Wearing 
 player2_answers = [
   ["black", "red", "green"],
   ["friday","saturday","sunday"],
-  ["chocolate chip"],
+  ["chocolate chip","chocolate","oreo"],
   ["lift weights","flex","take off shirt"]
 ]
 

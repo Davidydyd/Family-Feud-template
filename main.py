@@ -32,6 +32,8 @@ def play_game(questions, answers):
       answers.remove(answers[question_index])
     else:
       print(f"\nYou got it wrong. You guessed {user_choice}. The possible answers were:", possible_answers)
+      questions.remove(questions[question_index])
+      answers.remove(answers[question_index])
       print(f"\nYour score is {score}")
   
   
@@ -55,22 +57,16 @@ while True:
     print(f"\nYou finished with a score of {score}")
     score = 0
     play_again = input("\nDo you want the next player to play? (yes/no): ")
-  else:
-    print("Thank you for playing!")
-    break
     if play_again.lower() == "yes":
       play_game(player3_questions, player3_answers)
       print(f"\nYou finished with a score of {score}")
       score = 0
       play_again = input("\nDo you want the next player to play? (yes/no): ")
-    else:
-      print("Thank you for playing!")
-      break
       if play_again.lower() == "yes":
         play_game(player4_questions, player4_answers)
         print(f"\nYou finished with a score of {score}")
         score = 0
-        break
-      else:
-        print("Thank you for playing!")
-      break
+        
+     
+  print("Thank you for playing!")
+  break
